@@ -18,10 +18,10 @@ const openSans = Open_Sans({
 });
 
 export const metadata: Metadata = {
-  title: "Legatum - Versão parcial",
+  title: "Oblivion - Versão parcial",
   description:
     "Plataforma segura para gestão de herança digital e sucessão de bens digitais",
-  generator: "grupo legatum",
+  generator: "grupo Oblivion",
 };
 
 export default function RootLayout({

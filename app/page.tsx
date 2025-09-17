@@ -1,6 +1,6 @@
 /**
- * @file legatum-wireframe.tsx
- * @description Componente principal da aplicação Legatum, que gerencia a interface
+ * @file oblivion-wireframe.tsx
+ * @description Componente principal da aplicação oblivion, que gerencia a interface
  * de uma plataforma de herança digital. Inclui navegação, visualização
  * de dashboards, gerenciamento de bens, herdeiros e mensagens póstumas.
  */
@@ -94,10 +94,10 @@ interface Message {
 }
 
 /**
- * Componente principal da aplicação Legatum.
+ * Componente principal da aplicação oblivion.
  * @returns {JSX.Element} A interface completa da aplicação.
  */
-export default function LegatumWireframe() {
+export default function oblivionWireframe() {
   // Estado que controla qual tela está sendo exibida no momento. Inicia com 'dashboard'.
   const [currentScreen, setCurrentScreen] = useState<Screen>("dashboard");
 
@@ -494,7 +494,7 @@ export default function LegatumWireframe() {
             </div>
             <div>
               <h1 className="text-2xl font-heading font-black text-black">
-                Legatum
+                oblivion
               </h1>
               <p className="text-xs text-muted-foreground font-body">
                 Herança Digital Segura
